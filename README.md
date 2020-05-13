@@ -13,3 +13,13 @@ Layout Bootstrap - getbootstrap.com/docs/4.0/grid#grid-options
 	md='4'	// 12/4=3 columns
 	xl='3'	// 12/3=4 columns
 >
+
+
+++++++++++++++++
+
+Create a new repository on command line.
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/username/new_repo
+git push -u origin master
