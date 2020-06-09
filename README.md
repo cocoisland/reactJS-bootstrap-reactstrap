@@ -136,6 +136,26 @@ import { Alert } from 'reactstrap';
   This is a primary alert — check it out!
 </Alert>
 ```
+> Reactstrap Bootstrap card component example.
+```js
+import React from 'react';
+
+    import 'bootstrap/dist/css/bootstrap.min.css';
+    import { Button, Card } from 'react-bootstrap';
+
+    const ReactBootstrap = () => (
+    <Card style={{ width: 300 }}>
+      <Card.Body>
+        <Card.Title>React Bootstrap card</Card.Title>
+        <Card.Text>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        </Card.Text>
+        <Button variant="primary">Read more</Button>
+      </Card.Body>
+    </Card>
+    )
+
+```
 >Get this package installed into a react application from Create React App.
 
 1. Step 1 Build your application
