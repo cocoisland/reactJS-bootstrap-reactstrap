@@ -136,7 +136,7 @@ import { Alert } from 'reactstrap';
   This is a primary alert — check it out!
 </Alert>
 ```
-> Reactstrap Bootstrap card component example.
+> Reactstrap card component example.
 ```js
 import React from 'react';
 
